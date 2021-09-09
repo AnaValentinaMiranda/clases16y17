@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background-color: #ede5f5;
+  padding: 0;
+  margin: 0;
+}
+.main__img {
+  align-content: flex-end;
+  border-radius: 2rem;
+}
+.main__subtitulo {
+  text-decoration: underline;
+  font-size: x-large;
+}
+.main__texto {
+  text-align: justify;
+  display: flex;
+}
+.main__pie {
+  text-align: center;
+}

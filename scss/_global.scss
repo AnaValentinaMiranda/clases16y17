@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #a654f3;
+}
+.header__link {
+  text-decoration: none;
+  color: #ede5f5;
+  padding: 10px;
+  transition: 1s;
+}
+.header__titulo {
+  color: #ede5f5;
+  justify-content: center;
+  font-size: xx-large;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+a:hover {
+  background-image: radial-gradient(#ee82fc, #fcf482);
+}
+
+.header a:hover {
+  color: #67037a;
+}
+
+.footer {
+  border: solid #000;
+}
+.footer__texto {
+  font-size: x-small;
+  text-align: center;
+}
