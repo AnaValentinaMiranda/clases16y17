@@ -52,27 +52,10 @@ a:hover {
   margin: 0;
   padding: 0; }
 
-.main {
-  background-color: #ede5f5;
-  padding: 0;
-  margin: 0; }
-
-.main__img {
-  align-content: flex-end;
-  border-radius: 2rem; }
-
-.main__subtitulo {
-  text-decoration: underline;
-  font-size: x-large; }
-
-.main__texto {
-  font-size: large;
-  text-align: justify;
-  font-family: cursive;
-  align-items: flex-start; }
-
-.main__pie {
-  text-align: center; }
+.main__div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr; }
 
 .body {
   background: #ede5f5; }
