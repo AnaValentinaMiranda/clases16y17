@@ -2,7 +2,8 @@ $texto: large;
 
 .main__subtitulo {
   @if $texto == large {
-    color: rgb(90, 72, 248);
+    color: #a348f8;
+    text-decoration: underline;
   } @else {
     color: rgb(0, 0, 0);
   }
