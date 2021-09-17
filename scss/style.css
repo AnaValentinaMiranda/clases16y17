@@ -18,8 +18,8 @@
 .header__titulo {
   color: #ede5f5;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   font-size: xx-large;
   text-align: center;
   margin: 0;
@@ -57,8 +57,8 @@ a:hover {
   font-size: xx-large;
   text-align: justify;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
@@ -82,9 +82,9 @@ a:hover {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   -ms-grid-rows: 1fr 1fr 1.5fr;
-      grid-template-rows: 1fr 1fr 1.5fr;
+  grid-template-rows: 1fr 1fr 1.5fr;
   border: #67037a solid;
 }
 
@@ -100,8 +100,8 @@ a:hover {
   width: 400px;
   height: 400px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin: 70px 70px 10px 70px;
 }
 
@@ -164,18 +164,18 @@ input:focus {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: 1fr 2fr 2fr 2fr;
-      grid-template-rows: 1fr 2fr 2fr 2fr;
+  grid-template-rows: 1fr 2fr 2fr 2fr;
   padding: 40px;
   height: auto;
   width: 600px;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background-color: rgba(245, 138, 231, 0.5);
   border-radius: 10px;
   border: 1px solid #000;
