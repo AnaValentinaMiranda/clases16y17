@@ -6,12 +6,28 @@
   background: radial-gradient(#ee82fc, #fcf482);
   font-size: medium;
   color: grey;
+  display: flex;
+  height: 300px;
+  width: 500px;
+  justify-content: center;
+  align-items: center;
 }
+
 .subtitle {
   text-decoration: underline;
   font-family: cursive;
   text-align: center;
 }
+@media (max-width: 768px) {
+  .tabla {
+    background: radial-gradient(#ee82fc, #fcf482);
+    font-size: small;
+    color: grey;
+    height: auto;
+    width: auto;
+  }
+}
+
 .wrap {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -30,6 +46,21 @@
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  .wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr 2fr;
+    padding: 40px;
+    height: auto;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(245, 138, 231, 0.5);
+    border-radius: 10px;
+    border: 1px solid #000;
+  }
+}
 div ol li {
   list-style: none;
 }
